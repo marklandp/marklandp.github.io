@@ -1,6 +1,6 @@
-/** {*/
-/*    box-sizing: border-box;*/
-/*}*/
+* {
+    box-sizing: border-box;
+}
 
 html {
     width: 50%;
@@ -71,7 +71,7 @@ a {
 a:hover {
     color: #00ff00;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 #major {
@@ -114,6 +114,20 @@ a:hover {
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: sans-serif;
+}
+
+.one{
+    float: left;
+    width: 40%;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.two {
+    float: right;
+    width: 40%;
+    font-family: sans-serif;
+    font-size: 14px;
 }
 
 .validator {

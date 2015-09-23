@@ -13,6 +13,7 @@ html {
     -webkit-border-image: url(/frame.png) 50 stretch;  /*Safari 3.1-5*/ 
     -o-border-image: url(/frame.png) 50 stretch;  /*Opera 11-12.1*/
     border-image: url(/frame.png) 50 stretch;
+    behavior: url(/PIE.htc);
 }
 #body {
     /*background-image: url(back.png);*/
